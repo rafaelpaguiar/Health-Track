@@ -1,0 +1,9 @@
+br.com.fiap.htrack
+br.com.fiap.htrack.bean
+br.com.fiap.htrack.dao
+br.com.fiap.htrack.dao.impl
+br.com.fiap.htrack.exception
+br.com.fiap.htrack.factory
+br.com.fiap.htrack.singleton
+br.com.fiap.htrack.teste
+br.com.fiap.htrack.util

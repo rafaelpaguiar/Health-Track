@@ -1,0 +1,240 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F3FAFA;
+    height: 100%;
+}
+
+.caixa-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #DBECE8;
+    display: block;
+}
+
+.subtitulo {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #565987;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #565987;
+    text-decoration: none;
+    margin-left:16px;
+}
+
+.titulo:hover {
+    color: #565987;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-central {
+    object-fit: cover;
+    border-width: 2px;
+    width: 300px;
+}
+
+.rodape {
+    width: 100%;
+    height: 15%;
+    background-color: #DBECE8;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto-rodape {
+    padding: 20px;
+    font-size: 14px;
+    color: #565987;
+}
+
+
+.label-padrao {
+    font-weight: bold;
+    display: block;
+    margin: 4px;
+    color: #565987;
+}
+
+.input-padrao {
+    width: 300px;
+    height: 32px;
+    font-size: 16px;
+    display: block;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #565987;
+    margin: 4px;
+    
+}
+
+.botao-login {
+    border: none;
+    background-color: #E5E5E5;
+    display: block;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    width: 300px;
+    height: 110px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px;
+}
+
+.box-black{
+    display: inline-block;
+    width: 110px;
+    height: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #565987;;
+}
+
+.box-pink {
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: right;
+    color: #565987;
+}
+
+.small-text {
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.caixa-central-contato {
+    margin-top: 100px;
+}
+
+.entry-main {
+    display: block;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-customized {
+    width: 202px;
+    height: 36px;
+    margin-top: 1em;
+    border: solid 1px #565987;
+    background-color: white;
+    color: #565987;
+    font-weight: bolder;
+}
+
+.txt-invite {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+
+}
+
+.sign-in {
+    text-decoration: none;
+    color: #056D48;
+}
+
+.sign-in:hover {
+    text-decoration: underline;
+    color: #056D48;
+}
+
+.btn-size {
+    width: 32px;
+    height: 32px;
+}
+
+.form_edit:link {
+	color:#ffffff;
+	background: #056D48;
+	text-decoration: none;
+}
+
+.form_edit:hover {
+	background: #459c74;
+}
+
+.form_delete:link {
+	color:#ffffff;
+	background: #6d0e00;
+	text-decoration: none;
+}
+
+.form_delete:hover {
+	background: #a13f2a;
+}
+
+.align-radius {
+	display: flex;
+	align-items: center;
+	width: 50%;
+}
+
+.btn-space {
+	display: flex;
+	justify-content: space-evenly;
+}
+
